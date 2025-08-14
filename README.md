@@ -11,3 +11,26 @@ Crypt AI is an ephemeral, privacy-first AI chatbot built with Next.js + Tailwind
 - Groq LLaMA 3 Integration: Fast and powerful large language model responses.
 
 ## Project Structure
+crypt-ai/
+├── backend/ # FastAPI server for API requests and proxying to Groq
+├── frontend/ # Next.js + Tailwind UI
+└── README.md
+
+
+## Tech Stack
+- Frontend: Next.js, Tailwind CSS
+- Backend: FastAPI, Python
+- AI Model: Groq LLaMA 3
+- Hosting:
+  - Frontend: Vercel
+  - Backend: Your choice
+
+## Setup & Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/michael-wang0605/crypt-ai.git
+cd crypt-ai
+
+### 2. Backend setup
+
