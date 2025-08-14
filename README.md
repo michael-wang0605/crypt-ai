@@ -31,6 +31,42 @@ crypt-ai/
 ```bash
 git clone https://github.com/michael-wang0605/crypt-ai.git
 cd crypt-ai
-
+```
 ### 2. Backend setup
+```cd backend
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # macOS/Linux
+pip install -r requirements.txt
+```
+Create a .env file in /backend:
+```GROQ_API_KEY=your_groq_api_key_here```
+
+Run the backend:
+```uvicorn main:app --reload --port 8000```
+
+### 3. Frontend setup
+```
+cd ../frontend
+npm install
+npm run dev
+```
+
+### Privacy Policy
+Crypt AI is designed to store zero data:
+
+- No user tracking
+- No persistent chat logs
+- No cookies (unless required for essential frontend functionality
+
+### License
+MIT License – see LICENSE for details.
+
+### Contributing
+Pull requests are welcome! Please open an issue first to discuss your ideas or bug reports.
+
+### Contact
+For questions or suggestions: [mwang0605@gmail.com]
+
+
 
