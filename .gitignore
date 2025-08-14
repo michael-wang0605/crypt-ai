@@ -1,0 +1,18 @@
+# env
+.env
+*.env
+backend/.env
+frontend/.env
+
+# dependencies
+node_modules/
+.venv/
+
+# build outputs
+dist/
+build/
+.next/
+
+# misc
+.vscode/
+.DS_Store
